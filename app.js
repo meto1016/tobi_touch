@@ -23,6 +23,6 @@ Ext.application({
             itemTpl: '<h2>{entryId}</h2> <p>{firstName}</p>'
         });
     }
-});
+}); test
 
  
