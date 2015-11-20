@@ -1,9 +1,7 @@
 Ext.application({
     name : 'Fiddle',
 
-	requires: [
-        'Ext.MessageBox'
-    ],
+	requires: ['Ext.MessageBox'],
 
     launch : function() {
 		
