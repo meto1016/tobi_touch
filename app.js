@@ -6,7 +6,7 @@ Ext.application({
     launch : function() {
 		
 
-        var store = Ext.create('Ext.data.Store', {
+      /*  var store = Ext.create('Ext.data.Store', {
             autoLoad: true,
             fields: ['entryId', 'firstName','email'],
             proxy: {
@@ -31,11 +31,34 @@ Ext.application({
 								 	'Hello!',
 									'Hello there from Tobi Touch!'
 									
-						);
+						);*/
+		
+		var loginContainer = Ext.create('Ext.Container', {
+											itemId: 'loginContainer',
+											fullscreen: true,
+											items: [
+													{
+														xtype: 'textfield',
+														label: 'Login',
+														placeHolder: 'Enter Username Here'
+													},
+													{
+														xtype: 'textfield',
+														label: 'Organization',
+														itemId: 'orgField',
+														placeHolder: 'Enter your Organization Here'
+													},
+													{
+														xtype: 'textfield',
+														label: 'Password',
+														placeHolder: 'Enter Password Here'
+													}
+													]
+										});
 		
 		
     },
 
-}); test
+});
 
  
