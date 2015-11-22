@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
-    <person>
-        <entryId>1</entryId>
-        <firstName>Ed Spencer</firstName>
-        <email>ed@sencha.com</email>
-    </person>
+    <weingut>
+        <bild>resources/img/weingut1.jpg</bild>
+        <ort>Ort von Weingut1</ort>
+        <weine>
+            <name>Wein1</name>
+        </weine>
+    </weingut>
 </data>
+<!--
+<data>
+    <Weingut>
+        <Bild >resources/img/weingut1.jpg</Bild>
+        <Ort>Ort von Weingut1</Ort>
+        <Weine>
+            <Wein 1>
+                <Bild URL>resources/img/wein1.jpg</Bild>
+                <Jahrgang>2015</Jahrgang>
+                <Typ>Rotwein</Typ>
+            </Wein>
+        </Weine>
+    </Weingut>
+</data>
+-->

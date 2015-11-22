@@ -6,32 +6,84 @@ Ext.application({
     launch : function() {
 		
 
-      /*  var store = Ext.create('Ext.data.Store', {
+      var store_weingut = Ext.create('Ext.data.Store', {
             autoLoad: true,
-            fields: ['entryId', 'firstName','email'],
+            fields: ['bild', 'ort','email', 'name'],
+            model: "Activity",
             proxy: {
                 type: 'ajax',
                 url: 'data.xml',
                 reader: {
                     type: 'xml',
                     rootProperty: 'data',
-                    record: 'person'
+                    record: 'weingut'
                 }
             }            
         });
-		
-
+        
+        var store_wein = Ext.create('Ext.data.Store', {
+            autoLoad: true,
+            fields: ['name'],
+            proxy: {
+                type: 'ajax',
+                url: 'data.xml',
+                reader: {
+                    type: 'xml',
+                    rootProperty: 'data',
+                    record: 'weine'
+                }
+            }
+        });
+	/*
+        // View für Weingüter
         Ext.create('Ext.DataView', {
             fullscreen: true,
-            store: store,
-            itemTpl: '<h2>{entryId}</h2> <p>{firstName}</p> <p>{email}</p>'
+            store: store_weingut,
+            itemTpl: '<img src="{bild}"> <p>{ort}</p> <p>{name}</p>'
         });
-		
+      
+        //View für Weine
+        Ext.create('Ext.DataView', {
+        extend: 'Ext.TabPanel',
+        config: {
+          tabBarPosition: 'bottom',
+          cardSwitchAnimation: 'slide'
+            
+        },
+        items: [{
+            title: 'Home',
+            iconCls: 'home',
+            items: [{
+                xtype: 'titlebar',
+                title: 'Hello',
+                docked: 'top'
+            }]
+        }]
+        });  */
+        	/*
+          Ext.create("Ext.tab.Panel", {
+            fullscreen: true,
+            tabBarPosition: 'bottom',
+              store: store_wein,
+              itemTpl: '{name}',
+
+            items: [
+                {
+                    title: 'Home',
+                    iconCls: 'home',
+                    store: store_wein,
+                    itemTpl: '{name}',
+                    cls: 'home'
+                }
+            ]
+        });
+        */
+		 /* 
 		Ext.Msg.alert (
 								 	'Hello!',
 									'Hello there from Tobi Touch!'
 									
-						);*/
+						);
 		
 		var loginContainer = Ext.create('Ext.Container', {
 											itemId: 'loginContainer',
@@ -55,7 +107,7 @@ Ext.application({
 													}
 													]
 										});
-		
+		*/
 		
     },
 
