@@ -1,40 +1,52 @@
 Ext.application({
-    name : 'Fiddle',
+    name : 'bla',
 
-	requires: ['Ext.MessageBox'],
+    requires: ['bla.view.over_all'],
+    views: ['Main', 'over_all'],
+    models: ['over_all'],
+    stores: ['over_all_store'],
 
     launch : function() {
+        
+        Ext.fly('appLoadingIndicator').destroy();
+        
+        Ext.Viewport.add(Ext.create('bla.view.Main'));
 		
 
-      var store_weingut = Ext.create('Ext.data.Store', {
-            autoLoad: true,
-            fields: ['bild', 'ort','email', 'name'],
-            model: "Activity",
-            proxy: {
-                type: 'ajax',
-                url: 'data.xml',
-                reader: {
-                    type: 'xml',
-                    rootProperty: 'data',
-                    record: 'weingut'
-                }
-            }            
-        });
+      
         
-        var store_wein = Ext.create('Ext.data.Store', {
+       /* var store_wein = Ext.create('Ext.data.Store', {
+            requires:[
+                'bla.model.over_all'
+                ],
             autoLoad: true,
             fields: ['name'],
-            proxy: {
-                type: 'ajax',
-                url: 'data.xml',
-                reader: {
-                    type: 'xml',
-                    rootProperty: 'data',
-                    record: 'weine'
+            
+            config: {
+              autoLoad: true,
+              model: 'bla.model.over_all',
+              storeId: 'styleStore',
+              clearOnPageLoad:false,
+                
+                proxy: {
+                    type: 'ajax',
+                    url: 'data.xml',
+                    reader: {
+                        type: 'xml',
+                        rootProperty: 'data',
+                        record: 'weine'
+                    }
                 }
             }
-        });
+        });*/
 	/*
+    
+    Ext.create('Ext.DataView', {
+            fullscreen: true,
+           store: store_weingut ,
+            itemTpl: '<img src="{bild}"> <p>{ort}</p> <p>{name}</p>'
+        });
+        
         // View für Weingüter
         Ext.create('Ext.DataView', {
             fullscreen: true,
@@ -42,14 +54,7 @@ Ext.application({
             itemTpl: '<img src="{bild}"> <p>{ort}</p> <p>{name}</p>'
         });
       
-        //View für Weine
-        Ext.create('Ext.DataView', {
-        extend: 'Ext.TabPanel',
-        config: {
-          tabBarPosition: 'bottom',
-          cardSwitchAnimation: 'slide'
-            
-        },
+            ,
         items: [{
             title: 'Home',
             iconCls: 'home',
@@ -109,7 +114,7 @@ Ext.application({
 										});
 		*/
 		
-    },
+    }
 
 });
 

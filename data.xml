@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <weingut>
+        <id>1</id>
         <bild>resources/img/weingut1.jpg</bild>
         <ort>Ort von Weingut1</ort>
         <weine>
+            <id>23124</id>
             <name>Wein1</name>
         </weine>
     </weingut>
