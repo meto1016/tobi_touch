@@ -6,7 +6,7 @@ Ext.application({
 	
 	views: [ 'Main', 'Home', 'Rot', 'Weiss', 'Sekt'],
 	
-	controllers: ["Maincontroller"],
+	controllers: ["Maincontroller","Rotcontroller","Weisscontroller","Perlcontroller"],
 	
 
     launch : function() {
