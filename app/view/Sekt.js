@@ -1,5 +1,5 @@
 Ext.define('app.view.Sekt',{
-		   extend: 'Ext.Panel',
+		   extend: 'Ext.navigation.View',
 		   xtype: 'sektpanel',
 		   
 		   config: {

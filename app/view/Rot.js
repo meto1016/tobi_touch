@@ -1,10 +1,10 @@
 Ext.define('app.view.Rot',{
-		   extend: 'Ext.Panel',
+		   extend: 'Ext.navigation.View',
 		   xtype: 'rotpanel',
 		   
 		   config: {
 			   title: 'Rot',
-			   iconCls: 'Blog'
+			   iconCls: 'user'
 			},
 			
 			html: [

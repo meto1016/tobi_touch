@@ -1,5 +1,5 @@
 Ext.define('app.view.Weiss',{
-		   extend: 'Ext.Panel',
+		   extend: 'Ext.navigation.View',
 		   xtype: 'weisspanel',
 		   
 		   config: {
