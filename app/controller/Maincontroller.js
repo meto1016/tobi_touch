@@ -19,9 +19,10 @@ Ext.define('app.controller.Maincontroller', {
 			this.getBlog().push({
 							xtype: 'panel',
 							title: record.get('name'),
-							html: [<h1>record.get('name')</h1>,
-									
-									],
+                            
+							html: ["<h2 style='color:red'>", record.get('name'), "</h2>",
+                                  '<img src="', record.get('url'), '"/>'].
+                                    join(""),
 							scrollable: true,
 							styleHtmlContent: true
 								});

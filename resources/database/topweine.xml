@@ -4,6 +4,7 @@
 		<info>Dieser Wein schmeckt klasse!</info>
         <id>41</id>
         <name>Topwein1</name>
+        <url>resources/img/wein1.jpg</url>
     </wein>
     <wein>
         <id>42</id>

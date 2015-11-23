@@ -12,7 +12,7 @@ Ext.define('app.view.Home',{
 					
 					store: {
 						autoLoad: true,
-						fields: ['name', 'id', 'info'],
+						fields: ['name', 'id', 'info', 'url'],
 						
 						 proxy: {
 							type: 'ajax',
