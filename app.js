@@ -9,7 +9,7 @@ Ext.application({
       var store_weingut = Ext.create('Ext.data.Store', {
             autoLoad: true,
             fields: ['bild', 'ort','email', 'name'],
-            model: "Activity",
+            
             proxy: {
                 type: 'ajax',
                 url: 'data.xml',
@@ -34,14 +34,14 @@ Ext.application({
                 }
             }
         });
-	/*
+	
         // View für Weingüter
         Ext.create('Ext.DataView', {
             fullscreen: true,
             store: store_weingut,
             itemTpl: '<img src="{bild}"> <p>{ort}</p> <p>{name}</p>'
         });
-      
+      /*
         //View für Weine
         Ext.create('Ext.DataView', {
         extend: 'Ext.TabPanel',
