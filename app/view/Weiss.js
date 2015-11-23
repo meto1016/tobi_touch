@@ -1,17 +1,31 @@
 Ext.define('app.view.Weiss',{
 		   extend: 'Ext.navigation.View',
-		   xtype: 'weisspanel',
-		   
-		   config: {
-			   title: 'Weiss',
-			   iconCls: 'user'
-			},
+			xtype: 'weisspanel',
 			
-			html: [
-				'<p> Weiss_display </p>'  
-			].join("")
-			
-		   
-		   
-		   
+			config: {
+				title: 'Weißweine',
+				iconCls: 'home',
+				
+				items: {
+					xtype: 'list',
+					itemTpl:'{name}, {id}',
+					
+					store: {
+						autoLoad: true,
+						fields: ['name', 'id'],
+						
+						 proxy: {
+							type: 'ajax',
+							url: 'resources/database/weisswein.xml',
+															
+							reader: {                   
+								type:'xml',
+								rootProperty: 'data',
+								record: 'wein'
+						}
+						}
+					}           
+					   
+			}
+} 		   
 });

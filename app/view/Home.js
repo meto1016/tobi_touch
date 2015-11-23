@@ -3,7 +3,7 @@ Ext.define('app.view.Home',{
 			xtype: 'homepanel',
 			
 			config: {
-				title: 'Home',
+				title: 'Top 10',
 				iconCls: 'home',
 				
 				items: {
@@ -16,12 +16,12 @@ Ext.define('app.view.Home',{
 						
 						 proxy: {
 							type: 'ajax',
-							url: 'data.xml',
+							url: 'resources/database/topweine.xml',
 															
 							reader: {                   
 								type:'xml',
 								rootProperty: 'data',
-								record: 'weine'
+								record: 'wein'
 						}
 						}
 					}           

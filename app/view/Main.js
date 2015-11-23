@@ -34,7 +34,7 @@ Ext.define('app.view.Main', {
 				xtype:'weisspanel'
 			},
 			{
-				xtype:'sektpanel'
+				xtype:'perlweinpanel'
 			},
 
 

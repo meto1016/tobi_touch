@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <wein>
+        <id>31</id>
+        <name>Sekt1</name>
+    </wein>
+    <wein>
+        <id>32</id>
+        <name>Sekt2</name>
+    </wein>
+</data>
