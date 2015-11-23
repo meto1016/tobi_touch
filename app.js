@@ -1,9 +1,13 @@
 Ext.application({
-    name : 'app',
+    
+	name : 'app',
 
 	requires: ['Ext.MessageBox'],
 	
 	views: [ 'Main', 'Home', 'Rot', 'Weiss', 'Sekt'],
+	
+	controllers: ["Maincontroller"],
+	
 
     launch : function() {
 		
