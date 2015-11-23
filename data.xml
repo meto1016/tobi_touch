@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
-    <weingut>
-        <id>1</id>
-        <bild>resources/img/weingut1.jpg</bild>
-        <ort>Ort von Weingut1</ort>
-        <weine>
-            <id>2312</id>
-            <name>Wein1</name>
-        </weine>
-        <weine>
-            <id>2213902</id>
-            <name>wein 2</name>
-        </weine>
-    </weingut>
+    <weine>
+        <rot>
+            <wein>
+                <id>232</id>
+                <name>Rotwein1</name>
+            </wein>
+            <wein>
+                <id>231</id>
+                <name>Rotwein2</name>
+            </wein>
+            <wein>
+                <id>2312</id>
+                <name>Rotwein3</name>
+            </wein>
+        </rot>
+        <weiss>
+            <wein>
+                <id>29991</id>
+                <name>Weißwein1</name>
+            </wein>
+            <wein>
+                <id>67676</id>
+                <name>Weißwein2</name>
+            </wein>
+        </weiss>
+        <sekt>
+            <wein>
+                <id>880</id>
+                <name>Sekt1</name>
+            </wein>
+        </sekt>
+    </weine>
 </data>
-<!--
-<data>
-    <Weingut>
-        <Bild >resources/img/weingut1.jpg</Bild>
-        <Ort>Ort von Weingut1</Ort>
-        <Weine>
-            <Wein 1>
-                <Bild URL>resources/img/wein1.jpg</Bild>
-                <Jahrgang>2015</Jahrgang>
-                <Typ>Rotwein</Typ>
-            </Wein>
-        </Weine>
-    </Weingut>
-</data>
--->
