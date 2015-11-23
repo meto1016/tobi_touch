@@ -5,8 +5,12 @@
         <bild>resources/img/weingut1.jpg</bild>
         <ort>Ort von Weingut1</ort>
         <weine>
-            <id>23124</id>
+            <id>2312</id>
             <name>Wein1</name>
+        </weine>
+        <weine>
+            <id>2213902</id>
+            <name>wein 2</name>
         </weine>
     </weingut>
 </data>

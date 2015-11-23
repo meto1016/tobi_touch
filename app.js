@@ -3,7 +3,7 @@ Ext.application({
 
     requires: ['bla.view.over_all'],
     views: ['Main', 'over_all'],
-    models: ['over_all'],
+   // models: ['over_all'],
     stores: ['over_all_store'],
 
     launch : function() {

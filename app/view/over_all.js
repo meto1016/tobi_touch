@@ -10,11 +10,13 @@ Ext.define('bla.view.over_all', {
         
         items: {
             xtype: 'list',
-            itemTpl:'{name}',
+            itemTpl:'{name}, {id}',
             
-           
+            store: {
+                autoLoad: true,
+                fields: ['name', 'id'],
                 
-                proxy: {
+                 proxy: {
                     type: 'ajax',
                     url: 'data.xml',
                                                     
@@ -23,9 +25,9 @@ Ext.define('bla.view.over_all', {
                         rootProperty: 'data',
                         record: 'weine'
                 }
-            },
-             store: 'fields',
-        
+                }
+            }           
+               
     }
 }
 });
