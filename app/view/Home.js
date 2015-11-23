@@ -1,17 +1,32 @@
 Ext.define('app.view.Home',{
-		   extend: 'Ext.Panel',
-		   xtype: 'homepanel',
-		   
-		   config: {
-			   title: 'Top',
-			   iconCls: 'home'
-			},
+		    extend: 'Ext.navigation.View',
+			xtype: 'homepanel',
 			
-			html: [
-				'<p> Overall_display </p>'  
-			].join("")
-			
-		   
-		   
+			config: {
+				title: 'Home',
+				iconCls: 'home',
+				
+				items: {
+					xtype: 'list',
+					itemTpl:'{name}, {id}',
+					
+					store: {
+						autoLoad: true,
+						fields: ['name', 'id'],
+						
+						 proxy: {
+							type: 'ajax',
+							url: 'data.xml',
+															
+							reader: {                   
+								type:'xml',
+								rootProperty: 'data',
+								record: 'weine'
+						}
+						}
+					}           
+					   
+			}
+}
 		   
 });
