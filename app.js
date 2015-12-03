@@ -4,12 +4,14 @@ Ext.application({
 
 	requires: ['Ext.MessageBox'],
 	
-	views: [ 'Main', 'Home', 'Rot', 'Weiss', 'Sekt'],
+	views: [ 'Main', 'Top', 'Rot', 'Weiss', 'Sekt'],
 	
-	controllers: ["Maincontroller","Rotcontroller","Weisscontroller","Perlcontroller"],
+	controllers: ["Topcontroller","Rotcontroller","Weisscontroller","Perlcontroller"],
 	
 
     launch : function() {
+        
+       
 		
 		 Ext.fly('appLoadingIndicator').destroy();
 

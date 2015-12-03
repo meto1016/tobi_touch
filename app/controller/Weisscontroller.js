@@ -3,7 +3,8 @@ Ext.define('app.controller.Weisscontroller', {
     
     config: {
         refs: {
-			blog: 'weisspanel'
+			blog: 'weisspanel',
+           
             
         },
         control: {
@@ -20,7 +21,7 @@ Ext.define('app.controller.Weisscontroller', {
 							xtype: 'panel',
 							title: record.get('name'),
                             
-							html: ["<h2 style='color:red'>", record.get('name'), "</h2>",
+							html: ["<h2 style='color:white'>", record.get('name'), "</h2>",
                                   '<img src="', record.get('url'), '"/>'].
                                     join(""),
 							scrollable: true,

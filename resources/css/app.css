@@ -7716,6 +7716,92 @@ body.x-desktop {
   border-bottom: 1px solid #0d87dc;
   padding: 0 1.02em;
 }
-   .x-dataview-item h2{
+.x-dataview-item h2{
         color:green;
-    }
+}
+.detail-img {
+    height:150px;
+    width:100px;
+    align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.central {
+    align:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+}
+.border-info {
+    background-color:beige;
+    opacity:0.8;
+    color:black;
+    border:1px;
+    border-style:solid;
+    border-color:darkred;
+    boder-radius:5px;
+    text-align:center;
+}
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    margin-top:-5%;
+}
+.rating span {
+    display: inline-block;
+    position: relative;
+    width:0.7em;
+    font-size:1.2em;
+    cursor:pointer;
+}
+.rating span:hover:before,
+.rating span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+    color:#ffff00;
+    text-shadow:0 0 1px #666;
+}
+.rating span:before{
+    content: "\2605";
+    position: absolute;
+    color:#ffff00;
+    text-shadow:0 0 1px #666;
+}
+.rating .filled:before {
+    content: "\2605";
+    position: absolute;
+    color:gold;
+    text-shadow:0 0 1px #666;
+}
+.rating-conotroller {
+    unicode-bidi: bidi-override;
+    margin-top: -24%;
+    margin-bottom: 12%;
+    margin-left: 30%;
+}
+.rating-conotroller span {
+    display: inline-block;
+    position: relative;
+    width:0.9em;
+    font-size:2.2em;
+    cursor:pointer;
+}
+.rating-conotroller span:hover:before,
+.rating-conotroller span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+    color:#ffff00;
+    text-shadow:0 0 1px #666;
+}
+.rating-conotroller span:before{
+    content: "\2605";
+    position: absolute;
+    color:#ffff00;
+    text-shadow:0 0 1px #666;
+}
+.rating-conotroller .filled:before {
+    content: "\2605";
+    position: absolute;
+    color:gold;
+    text-shadow:0 0 1px #666;
+}

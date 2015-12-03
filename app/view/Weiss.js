@@ -12,7 +12,7 @@ Ext.define('app.view.Weiss',{
 					
 					store: {
 						autoLoad: true,
-						fields: ['name', 'id'],
+						fields: ['name', 'id', 'bewertung'],
 						
 						 proxy: {
 							type: 'ajax',
@@ -27,5 +27,5 @@ Ext.define('app.view.Weiss',{
 					}           
 					   
 			}
-} 		   
+}   
 });

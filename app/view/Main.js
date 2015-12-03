@@ -1,20 +1,3 @@
-/*Ext.define('bla.view.Main', {
-    config: {
-        name: null
-    },
-
-    constructor: function(config) {
-        this.initConfig(config);
-    },
-
-    speak: function() {
-        alert('grunt');
-    }
-});
-var bob = Ext.create('Animal', {
-    name: 'Bob'
-});
-*/
 Ext.define('app.view.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'main',
@@ -25,7 +8,7 @@ Ext.define('app.view.Main', {
 
         items: [
 			{
-				xtype:'homepanel'
+				xtype:'toppanel'
 			},
 			{
 				xtype:'rotpanel'
@@ -35,21 +18,7 @@ Ext.define('app.view.Main', {
 			},
 			{
 				xtype:'perlweinpanel'
-			},
-
-
-        ]
-                    
-                        
-             
-                        /*
-                        proxy: {
-                            type: 'ajax',
-                            xtype: 'json',
-                            url: 'http://adsenseforfeeds.blogspot.de/2010/10/your-stats-right-away.html'
-                        } */
-                       
+			}
+        ]    
 	}
-               
-    
 });

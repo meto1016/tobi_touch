@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
     <wein>
-		<info>Dieser Wein schmeckt klasse!</info>
         <id>41</id>
-        <name>Topwein1</name>
-        <url>resources/img/wein1.jpg</url>
+        <name>Weißbugrunder</name>
+        <url>resources/img/weissburgunder.gif</url>
+        <info>Der Weiße Burgunder ist eine Weißweinsorte.</info>
+        <detail-info>Lange Zeit wurde nicht zwischen dem Pinot blanc, dem Chardonnay und dem Auxerrois differenziert, da alle drei Sorten nur           durch geschulte Ampelographen und molekularbiologische Verfahren unterschieden werden können.
+
+            In südlicheren Anbaugebieten fehlt der Sorte oft die Säure, dort wird sie daher häufig vom Chardonnay verdrängt.
+
+            Siehe auch die Artikel Weinbau in Deutschland, Weinbau in Frankreich, Weinbau in Italien, Weinbau in Österreich und Weinbau in der              Schweiz sowie die Liste der Rebsorten.
+
+            Abstammung: sehr alte Sorte, Mutation aus dem Grauburgunder, der seinerseits aus dem Spätburgunder entstanden ist.
+        </detail-info>
+        <test> </test>
+        <bewertung>resources/img/5_star.PNG</bewertung>
     </wein>
     <wein>
         <id>42</id>
         <name>Topwein2</name>
+        <url></url>
+        <info></info>
+        <bewertung>10</bewertung>
     </wein>
 </data>
