@@ -8,7 +8,7 @@ Ext.define('app.view.Top',{
 				html: 'Topweintest',
 				items: {
 					xtype: 'list',
-					itemTpl: '<p><img src="{url}", height="125px",width="125px"/> &nbsp; {name}<div class="rating"><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span></div><p>',
+					itemTpl: '<p><img src="{url}", height="125px",width="125px"/> &nbsp; <h3>{name}</h3><div class="rating"><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span></div></p>',
                     
 					
 					store: {

@@ -2,7 +2,19 @@
 <data>
     <wein>
         <id>11</id>
-        <name>Rotwein1</name>
+        <name>PLAIMONT Le Tapie Rouge</name>
+        <jahr>2013</jahr>
+        <url>resources/img/1442_0.png</url>
+        <winzer>Winzerverein Plaimont in Riscle</winzer>
+        <farbe>mittelkräftiger Rotwein</farbe>
+        <rebsorte>Merlot, Tannat, Cabernet Sauvignon</rebsorte>
+        <alk>12,0% Vol.</alk>
+        <geschmack>Intensive Fruchtaromen wie Blaubeere und Beerenkompott werden begleitet von Schokolade, Tabak und Vanille. Überzeugend ist auch der Eindruck am Gaumen: stoffig, würzig, pikant und harmonisch. Ein herzhafter Alltagswein mit einem guten Preis-Leistungs-Verhältnis.</geschmack>
+        <preis>4,40 €</preis>
+        <detail-info>Die Baskenmütze ist ihr Markenzeichen. Die Producteurs Plaimont legen Wert auf Tradition und Unverwechselbarkeit. Ihr größter Erfolg bei Jacques’ ist der weiße Tapie, der seit nahezu drei Jahrzehnten die Liste der erfolgreichsten Weine anführt. Als rotes Pendant gesellte sich vor einigen Jahren der Tapie Rouge dazu.
+Seit jeher konzentrieren sie sich auf die einheimischen Rebsorten Südwestfrankreichs. Welche Traube wäre besser für ihren Landwein geeignet als die urwüchsige Tannat? Gemeinam mit Cabernet Sauvignon bringt sie kraftvolle Lagerweine hervor. Das ist authentischer Weingenuss à la Gascogne!
+        </detail-info>
+        <bewertung>resources/img/5_star.PNG</bewertung>
     </wein>
     <wein>
         <id>12</id>

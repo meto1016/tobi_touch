@@ -2,7 +2,7 @@
 <data>
     <wein>
         <id>41</id>
-        <name>Weißbugrunder</name>
+        <name>Weißburgunder</name>
         <url>resources/img/weissburgunder.gif</url>
         <info>Der Weiße Burgunder ist eine Weißweinsorte.</info>
         <detail-info>Lange Zeit wurde nicht zwischen dem Pinot blanc, dem Chardonnay und dem Auxerrois differenziert, da alle drei Sorten nur           durch geschulte Ampelographen und molekularbiologische Verfahren unterschieden werden können.
@@ -13,14 +13,14 @@
 
             Abstammung: sehr alte Sorte, Mutation aus dem Grauburgunder, der seinerseits aus dem Spätburgunder entstanden ist.
         </detail-info>
-        <test> </test>
         <bewertung>resources/img/5_star.PNG</bewertung>
     </wein>
     <wein>
         <id>42</id>
-        <name>Topwein2</name>
-        <url></url>
+        <name>Spätburgunder</name>
+        <url>resources/img/spaetburgunder.jpg</url>
         <info></info>
-        <bewertung>10</bewertung>
+        <detail-info>Spätburgunder, auch frz. Pinot noir , ital. Pinot nero, auch Blauburgunder oder Schwarzburgunder genannt, ist eine bedeutende und qualitativ sehr hochwertige Rotweinsorte. Die Rebe hat so hohe Bedeutung erlangt und ist so begehrt, dass sie in die Nobilität der Weinwelt aufrückte und als Edelrebe bezeichnet wird. Sie gilt als klassische Rote der kühleren Weinbaugebiete wie zum Beispiel in Burgund, aber auch in fast allen deutschen Gebieten. Der Spätburgunder ist ferner eine wichtige Grundlage für den Champagner. Die Alterung der Spätburgunder-Weine ist nur schwer vorauszusagen und somit riskant. Spitzenweine aus Burgund können jedoch sehr langlebig sein und entwickeln dann außerordentlich komplexe Aromen. Im Allgemeinen verliert der Wein jedoch seinen Charme. Der Name „Pinot“ ist möglicherweise dem französischen Wort für Kiefern- oder Pinienzapfen („pin“) entlehnt und hängt somit mit der Form der Traube zusammen.</detail-info>
+        <bewertung>resources/img/5_star.PNG</bewertung>
     </wein>
 </data>

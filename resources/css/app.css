@@ -7720,8 +7720,8 @@ body.x-desktop {
         color:green;
 }
 .detail-img {
-    height:150px;
-    width:100px;
+    height:100%;
+    width:100%;
     align:center;
     margin-left:auto;
     margin-right:auto;
@@ -7746,6 +7746,7 @@ body.x-desktop {
     unicode-bidi: bidi-override;
     direction: rtl;
     margin-top:-5%;
+    color: #AF1E2D;
 }
 .rating span {
     display: inline-block;
@@ -7764,13 +7765,13 @@ body.x-desktop {
 .rating span:before{
     content: "\2605";
     position: absolute;
-    color:#ffff00;
+    color:#AF1E2D0;
     text-shadow:0 0 1px #666;
 }
 .rating .filled:before {
     content: "\2605";
     position: absolute;
-    color:gold;
+    color:g#AF1E2Dold;
     text-shadow:0 0 1px #666;
 }
 .rating-conotroller {
@@ -7790,7 +7791,7 @@ body.x-desktop {
 .rating-conotroller span:hover ~ span:before {
     content: "\2605";
     position: absolute;
-    color:#ffff00;
+    color:#AF1E2D;
     text-shadow:0 0 1px #666;
 }
 .rating-conotroller span:before{
@@ -7804,4 +7805,8 @@ body.x-desktop {
     position: absolute;
     color:gold;
     text-shadow:0 0 1px #666;
+}
+.table_back{
+    background-color: white;
+    opacity:0.9;
 }
