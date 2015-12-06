@@ -2,10 +2,63 @@
 <data>
     <wein>
         <id>21</id>
-        <name>Weißwein1</name>
+        <name>PLAIMONT Le Tapie Blance</name>
+        <jahr>2014</jahr>
+        <url>resources/img/1234_0.png</url>
+        <winzer>Winzerverein Plaimont in Riscle</winzer>
+        <farbe>fruchtbetonter Weißwein</farbe>
+        <rebsorte>Colombard, Ugni Blanc</rebsorte>
+        <alk>11,0% Vol.</alk>
+        <geschmack>Eine Aromenbombe mit dominierender Exotik in der Nase. Dieser Wein lässt sich einfach trinken durch seine angenehme Spritzigkeit und Frische..</geschmack>
+        <preis>4,30 €</preis>
+        <detail-info>„Beim Le Tapie haben wir eine klare Dominanz der Sorte Colombard mit sehr ausgeprägten Zitrusaromen, vor allem Pampelmuse“, schwärmt Christine Cabri, die junge Önologin von Plaimont. Es grenzt an ein Wunder, welch köstliche, frische und fruchtbetonte Weißweine heute im Gers aus dieser Rebsorte gekeltert werden, an der Ampelographen, wie man Rebkundler nennt, früher kein gutes Haar gelassen haben. Der Ursprung der Colombard soll die Charente gewesen sein, wo sie zum Destillieren von Cognac verwandt wurde. Für Weißweine fand Colombard vor allem im Bordelais Verbreitung, wo man sie aber immer nur als zweitrangig einstufte. Im Central Valley Kaliforniens lernte sie der ehemalige Direktor André Dubosc als trockenen, süffigen Weißwein kennen und ließ sich inspirieren.
+        </detail-info>
+        <bewertung>resources/img/5_star.PNG</bewertung>
     </wein>
     <wein>
         <id>22</id>
-        <name>Weißwein2</name>
+        <name>AVOGADRI Grillo</name>
+        <jahr>2014</jahr>
+        <url>resources/img/2298_0.png</url>
+        <winzer>Luigi Avogadri, Winzer in Marsala</winzer>
+        <farbe>fruchtbetonter Weißwein</farbe>
+        <rebsorte>Grillo</rebsorte>
+        <alk>12,5% Vol.</alk>
+        <geschmack>Blumig, mit Noten von Bergamotte, Pfirsich und Mandarinen. Am Gaumen cremig und weich.</geschmack>
+        <preis>5,50 €</preis>
+        <detail-info>WLuigi Avogadri ist stets unterwegs in Sachen Wein – vom lombardischen Brescia bis hinunter ins sizilianische Marsala. Als Önologe und Anbauspezialist kontrolliert er regelmäßig seine Weinberge und seine Tanks. Und das stets per Fähre und Auto, da er das Fliegen nicht verträgt. Mit seinem süditalienischen Partner Stefano Caruso fand er ein etabliertes Weingut, das über 120 Hektar eigene Rebflächen bewirtschaftet. Bei „seinem“ Grillo trägt Luigi die Verantwortung für alle Produktionsschritte.
+Die weiße Rebsorte Grillo (auch Riddu genannt) soll aus der italienischen Region Apulien stammen und wird in Italien heute ausschließlich auf der Insel Sizilien angebaut. Lange Zeit wurde Grillo vor allem für den süßen Marsala genutzt. Doch aus dieser autochthonen Rebsorte lassen sich ebenfalls sehr gute trockene Weißweine keltern. Der blumige Beweis dafür steht in vollmundiger Form auf dem Verkostungstisch bereit!
+        </detail-info>
+    </wein>
+    <wein>
+        <id>33</id>
+        <name>KARL PFAFFMANN Riesling</name>
+        <jahr>2014</jahr>
+        <url>resources/img/1450_0.png</url>
+        <winzer>Familie Pfaffmann in Walsheim</winzer>
+        <farbe>fruchtbetonter Weißwein</farbe>
+        <rebsorte>Riesling</rebsorte>
+        <alk>12,5% Vol.</alk>
+        <geschmack>Markus Pfaffmann überzeugt mit seinem Riesling, der erstaunlich unkompliziert wirkt. In der Nase die typischen Apfel- und Kräuteraromen, am Gaumen knackig und belebend.</geschmack>
+        <preis>6,35 €</preis>
+        <detail-info>Dank qualitätsorientierten Erzeugern hat sich Walsheim in der Pfalz vom beschaulich-verträumten Winzerdorf zu einem Treffpunkt für anspruchsvolle Weinfreunde entwickelt. Das Weingut Karl Pfaffmann, ein Spitzenbetrieb des Orts, verbindet exzellente Qualität mit moderaten Preisen.
+Seit Jahren sammelt Markus Pfaffmann Goldmedaillen und Staatsehrenpreise. Auch der Weinkritiker Gerhard Eichelmann ist angetan und stellt fest, die Pfaffmann-Weine gehörten "zum Besten was die Pfalz zu bieten hat."
+Markus Pfaffmann erläutert die Eckpfeiler seines Konzepts: "Beim Riesling-Anbau achten wir auf geringe Erträge, damit alle Kraft der Rebe in wenige, aber hochkonzentrierte Trauben fließt." Den reichlich vorhandenen Sonnenschein nutzt er optimal aus, indem er das Blattwerk auslichten lässt und Schatten auf den Trauben vermeidet. Dieser Qualitätsanspruch erfordert großen Arbeitseinsatz. Der Anteil der Handarbeit hat sich in den letzten 15 Jahren verdoppelt.
+Umso erfreulicher, dass er mit den Preisen auf dem Teppich geblieben ist... Probieren Sie diesen Riesling!</detail-info>
+    </wein>
+        <wein>
+        <id>24</id>
+        <name> VINHA DO FORAL Branco</name>
+        <jahr>2014</jahr>
+        <url>resources/img/2975_0.png</url>
+        <winzer>Cooperativa Agrícola de Santo Isidro in Pegões-Velhos</winzer>
+        <farbe>zartfruchtiger Weißwein</farbe>
+        <rebsorte>Fernão Pires</rebsorte>
+        <alk>12,5% Vol.</alk>
+        <geschmack>In der Nase dominiert ein Duft von weißen Blüten und Aprikose. Im Mund zeigt er sich rund und fruchtig. Ein sehr leicht zu trinkender Wein.</geschmack>
+        <preis>5,20 €</preis>
+        <detail-info>Wie in der Estremadura ist die Weinregion Península de Setúbal von Westwinden beeinflusst. Die großen Klima-Unterschiede zwischen den an der Küste und den weiter im Landesinneren gelegenen Anbaugebieten sind eine Ursache für die Vielfalt der portugiesischen Weine. Hinzu kommt der Rebsortenreichtum. Allein 500 autochthone Rebsorten bergen ein enormes Geschmackspotenzial. Auf der Halbinsel von Setúbal südöstlich von Lissabon ist der Sitz einiger der besten und erfolgreichsten Erzeuger Portugals. Unternehmen wie die Cooperativa Agrícola de Santo Isidro de Pegões gehören dazu.
+Das Juwel der Cooperativa ist ihr Weißwein aus der Rebsorte Fernão Pires. Das Lesegut stammt aus Weinbergen, die teilweise vor über 100 Jahren bepflanzt wurden.
+Mit Kreativität und schonenden Methoden moderner Kellereikunst entlockt Önologe Jaime Quendera dieser typisch portugiesischen Traube eine große Duftfülle. Freuen Sie sich auf diesen jungen, bukettbetonten Weißen, er steht am Verkostungstisch für Sie bereit.</detail-info>
     </wein>
 </data>

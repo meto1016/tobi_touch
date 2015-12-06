@@ -18,6 +18,50 @@ Seit jeher konzentrieren sie sich auf die einheimischen Rebsorten Südwestfrankr
     </wein>
     <wein>
         <id>12</id>
-        <name>Rotwein2</name>
+        <name>ARDÉCHOIS Guy Boyer Rouge</name>
+        <jahr>2014</jahr>
+        <url>resources/img/1492_0.png</url>
+        <winzer>Vignerons Ardéchois in Ruoms</winzer>
+        <farbe>junger, fruchtiger Rotwein</farbe>
+        <rebsorte>Merlot, Cabernet Sauvignon</rebsorte>
+        <alk>13,5% Vol.</alk>
+        <geschmack>Intensive Fruchtnoten prägen diesen Rotwein. In der Nase sind gekochte Früchte wie Erdbeeren und Pflaumen deutlich zu erkennen. Das Mundgefühl ist angenehm saftig, fruchtig und würzig im Abgang. Der Wein wirkt durch den höheren Anteil Merlot fruchtbetonter und runder.</geschmack>
+        <preis>4,50 €</preis>
+        <detail-info>Wir suchen die Frucht und wollen sie in unseren Weinen bewahren“, betont Denis Roume, langjähriger Direktor der Vignerons Ardéchois. „Damit stehen wir im Gegensatz zur südlichen Hemisphäre, wo man eine starke Extraktion bevorzugt und Aromen von Konfitüre. Unsere Anbauregion ist dafür nicht geeignet, wohl aber für frische, angenehme, sympathische Weine.“ Die Cuvée Guy Boyer, nach dem früheren Vertriebsleiter der Vignerons benannt, ist dafür ein Kardinalbeispiel: ein herrlich unkomplizierter, aromatischer Rotwein, modern und zeitgemäß.
+Es mutet wie ein Widerspruch an, dass er aus einer der urwüchsigsten und abgelegensten Regionen Frankreichs stammt. Denn wenn man vom Rhônetal zwischen der Gemeinde Le Teil und Pont-Saint-Esprit nach Westen vorstößt, fühlt man sich bereits nach wenigen Kilometern in eine andere Welt versetzt. Verkehrsströmen, Industrie und Geschäftigkeit der wichtigsten Nord-Süd-Achse Europas ist man entkommen. In den malerischen Dörfern scheint noch eine andere Zeit zu regieren. Was den Wein betrifft, täuscht dies. Schon vor drei Jahrzehnten erkannte eine Gruppe von Winzern, Weinexperten und Önologen, dass die Zukunft ihrer Region nur in modernen Qualitätsweinen liegen konnte.</detail-info>
+    </wein>
+    <wein>
+        <id>13</id>
+        <name>SARTORI Merlot</name>
+        <jahr>2014</jahr>
+        <url>resources/img/1569_0.png</url>
+        <winzer>Andrea Sartori in Negrar</winzer>
+        <farbe>junger, fruchtiger Rotwein</farbe>
+        <rebsorte>Merlot</rebsorte>
+        <alk>12,0% Vol.</alk>
+        <geschmack>Amarenakirsche, Basilikum, frische Kräuter und ein wenig Tomate. Diese Düfte lassen spontan an Italien denken. Am Gaumen fühlt sich dieser würzige Merlot weich und füllig an.</geschmack>
+        <preis>4,50 €</preis>
+        <detail-info>Im Sommer schmeckt dieser sanfte, fruchtbetonte Merlot kühl serviert besonders gut, aber auch den Rest des Jahres bringt er mit seiner leichten, harmonischen Art einen Hauch von Sommer auf den Tisch.
+
+Er entspricht ganz der Philosophie des Hauses Sartori, das sich vorgenommen hat, nicht nur große Weine zu erzeugen, sondern auch solche für jeden Tag, die den Geldbeutel nicht belasten und dennoch Trinkvergnügen bereiten. Dazu muss man wissen, dass der aus Bordeaux stammende Merlot, der dort den strengen Cabernet Sauvignon zähmen muss, in Venetien Bedingungen gefunden hat, die ihm besonders zusagen und seinen fruchtig-kräuterigen Sortencharakter bestens zum Ausdruck bringen. Das liegt an den gut drainierenden Schwemmböden der Region Tre Venezie, wo dieser Merlot wächst, und ihrem milden Klima, das ihn gut ausreifen lässt, ohne dass er dabei zu viel Tannin entwickelt.</detail-info>
+    </wein>
+        <wein>
+        <id>14</id>
+        <name>LOS TINOS Vega Roble</name>
+        <jahr>2014</jahr>
+        <url>resources/img/1363_0.png</url>
+        <winzer>Bodegas Los Tinos in Alberite</winzer>
+        <farbe>junger, fruchtiger Rotwein</farbe>
+        <rebsorte>Tempranillo</rebsorte>
+        <alk>12,0% Vol.</alk>
+        <geschmack>Ein sehr zugänglicher Wein. Marmeladig und saftig können hierbei als Attribute genannt werden, wobei Aromen von Kirsche, Vanille und Schokolade dominieren. Ein saftig weicher Geschmack im Mund.</geschmack>
+        <preis>3,95 €</preis>
+        <detail-info>Die Familie Vivanco blickt auf eine fast 100-jährige Geschichte im Weinbau zurück. Den Grundstein für die Weindynastie in der Rioja legte Großvater Pedro 1915 mit einem 40-ha-Weinberg, den er neben seiner Tätigkeit in der Baubranche bewirtschaftete.
+
+Mittlerweile ist der Besitz auf stolze 550 ha in Rioja und Navarra angewachsen. Was nicht zuletzt dem Pioniergeist von Enkel Pedro Vivanco zuzuschreiben ist. Schon als Junge engagierte er sich für das Familienunternehmen, indem er die Weinliebhaber in benachbarten Orten per Fahrrad belieferte. Später studierte er Önologie und investierte in den Ausbau der Rebfläche und die Modernisierung der Kellerei.
+
+Bald schon erkannte er, dass in der Region neben Qualitätsweinen auch anspruchsvolle Landweine ihren Platz haben. Einer davon ist der Vega Roble Tempranillo, der als Landwein (Vino de la Tierra de Castilla) angeboten wird.
+
+Vinifiziert durch den Önologen Alfredo Ansotegui präsentiert sich dieser weiche und runde Rotwein mit dem typischen Tempranillo-Schmelz, der das Weinland Spanien so berühmt gemacht hat.</detail-info>
     </wein>
 </data>
