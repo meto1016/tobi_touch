@@ -2,10 +2,67 @@
 <data>
     <wein>
         <id>31</id>
-        <name>Sekt1</name>
+        <name>BOUVET-LADUBAY Brut</name>
+        <jahr>2013</jahr>
+        <url>resources/img/1532_0.png</url>
+        <winzer>Bouvet-Ladubay in St.-Hilaire-St.-Florent</winzer>
+        <farbe>fruchtbetonter Schaumwein</farbe>
+        <rebsorte>Chenin Blanc, Chardonnay</rebsorte>
+        <alk>12,5% Vol.</alk>
+        <geschmack>Man denkt an Birne und getrocknete Aprikose, wenn man an diesem Saumur riecht. Seine angenehme Säure, seine Spritzigkeit und die feine Perlage runden das Ganze ab.</geschmack>
+        <preis>10,95 €</preis>
+        <detail-info>„Mein Metier ist es, Bouquets zu kreieren“, verrät Patrice Monmousseau, Leiter des Hauses Bouvet-Ladubay. Dabei denkt er an die Ambiance und die Umgebung, in der seine Weine auftreten und genossen werden. Für den Brut wählt er deshalb nur die Rebsorten Chenin und Chardonnay, denn damit erzielt er den frischen und eleganten Stil, für den Bouvet-Ladubay so geschätzt wird. Vor allem bei uns Deutschen, den Hauptkunden.
+        </detail-info>
+        <bewertung>resources/img/5_star.PNG</bewertung>
     </wein>
     <wein>
         <id>32</id>
-        <name>Sekt2</name>
+        <name>BAILLY LAPIERRE Rosé Brut</name>
+        <jahr>2013</jahr>
+        <url>resources/img/1782_0.png</url>
+        <winzer>Caves Bailly Lapierre in St-Bris-le-Vineux</winzer>
+        <farbe>Schaumwein rosé</farbe>
+        <rebsorte>Pinot Noir, Gamay</rebsorte>
+        <alk>12,0% Vol.</alk>
+        <geschmack>Erdbeeren und Himbeeren fügen den fruchtigen Aspekt bei und vereinen sich mit einem feinen Duft nach Sahne. Im Mund verhält sich der Rosé Brut erst weich und rund, um dann mit einem frischen, beerigen Finale zu überraschen.</geschmack>
+        <preis>11,50 €</preis>
+        <detail-info>Die Caves Bailly Lapierre haben besonders viel für den Erfolg des Crémant de Bourgogne getan. Lange bevor es diese Appellation gab, stellte sich die Genossenschaft bei Auxerre bereits der Herausforderung, hochklassige Schaumweine zu kreieren.
+Seit je her geht sie weit über die Standards hinaus, die vom Gesetzgeber gefordert werden. Sie lässt ihre Crémants 18 Monate statt der verlangten neun Monate auf dem Hefelager reifen. Das steigert die Komplexität!
+Der Bailly-Lapierre in Rosé ist ein idealer Aperitif zu festlichen Gelegenheiten. Gekeltert aus der edlen Pinot Noir, verströmt er den verführerischen Duft reifer Himbeeren.
+        </detail-info>
     </wein>
+    <wein>
+        <id>33</id>
+        <name>KLOSTER EBERBACH Riesling</name>
+        <jahr>2013</jahr>
+        <url>resources/img/1769_0.png</url>
+        <winzer>Hessische Staatsweinkellerei Kloster Eberbach in Eltville</winzer>
+        <farbe>fruchtiger Schaumwein</farbe>
+        <rebsorte>Riesling</rebsorte>
+        <alk>12,0% Vol.</alk>
+        <geschmack>Ein unglaublich weiniger Sekt mit einem klassischen Riesling-Bouquet, zu dem sich nussige Komponenten hinzugesellen. Ein Sekt nach klassischer Flaschengärung mit feiner Perlage.</geschmack>
+        <preis>12,80 €</preis>
+        <detail-info>Kloster Eberbach, eine 1136 gegründete Niederlassung der Zisterzienser, liegt idyllisch in einem Seitental bei Eltville. Jahrhunderte lang wurde dort meditiert, studiert, gearbeitet und Wein erzeugt.
+Bernhard von Clairvaux schickte auf Wunsch des Mainzer Erzbischofs im 12. Jahrhundert zwölf Brüder an den Rhein, um die Abtei Eberbach zu gründen. Sie hatten vermutlich Reben im Gepäck. Nach der Devise "Bete und arbeite" kümmerten sich die Mönche mit Hingabe um den Weinbau.
+Heute betreibt das Land Hessen die Weinberge und Kellereien. Sie stehen unter der Leitung von Dieter Greiner. Für den 1969 im schwäbischen Schnait geborenen Winzersohn steht der Riesling, die beste Weißweinrebe Deutschlands, ganz oben auf der Agenda.
+So bringt der Riesling nicht nur ausgezeichnete Stillweine hervor, sondern auch anspruchsvolle Sekte. Der Kloster Eberbach Brut wurde in der Flasche vergoren. Das Pünktchen auf dem i war die abschließende Verfeinerung mit einer Riesling-Cuvée in Auslesequalität! Sie stammt aus den Domänen der Hessischen Bergstraße und des Rheingaus.
+Dieser Sekt hat Klasse! Reichen Sie ihn als Aperitif zu einem festlichen Menü.</detail-info>
+    </wein>
+        <wein>
+        <id>34</id>
+        <name>BAILLY LAPIERRE Vive la Joie</name>
+        <jahr>2008</jahr>
+        <url>resources/img/16099_0.png</url>
+        <winzer>Caves Bailly Lapierre in St-Bris-le-Vineux</winzer>
+        <farbe>fruchtiger Schaumwein</farbe>
+        <rebsorte>Pinot Noir, Chardonnay</rebsorte>
+        <alk>12,0% Vol.</alk>
+        <geschmack>Aus dem Glas steigen Noten von Rosenblättern, Biskuit, Rhabarber und Karottensaft. Am Gaumen ist der Crémant saftig und frisch. Ein langer Nachhall nach roten Früchten ist deutlich erkennbar.</geschmack>
+        <preis>19,90 €</preis>
+        <detail-info>Die Caves Bailly Lapierre liegen nur eineinhalb Autostunden von Paris entfernt ganz im Norden des Burgunds. Ihre 80 Mitglieder sind gestandene und unabhängige Winzer in den Dörfern Saint-Bris-le-Vineux, Chitry le Fort, Irancy und Coulanges-la-Vineuse.
+In den 1950er und 1960er Jahren lieferten die Bauern der vier Dörfer Grundweine an die deutsche Sektindustrie. Als Ende der 1960er Jahre plötzlich eine Absatzkrise eintrat, brach dieser Markt zusammen. „Dann machen wir den Schaumwein eben selbst“, entschieden sie und gründeten 1972 ihre Kellerei. Damals brachte das Engagement der Winzer von Caves Bailly Lapierre dem Crémant de Bourgogne die Appellation ein. Seither sind sie führender Erzeuger und wurden dutzende Male für die hohe Qualität ihrer Schaumweine ausgezeichnet.
+Önologe Sylvain Martinand beschreibt den 2008er-Jahrgang so: „Der Vive-la-Joie Rosé basiert auf derselben Grundlage wie sein weißes Pendant – nur die besten Trauben des Jahrgangs werden verwendet. Die Lese begann Mitte September bei kühleren Temperaturen von acht Grad. Dies hatte eine langsam einsetzende Gärung zur Folge, da sich das Lesegut erst wieder aufwärmen musste. Der Wein wirkt dadurch jünger.“
+Hauptanteilig beinhaltet die Cuvée Pinot Noir. Die zweite Komponente stellt Chardonnay dar. Das Lesegut stammt ausschließlich von den großen Terroirs der Weinberge im Auxerre. Die Rebsorten werden getrennt gepresst und separat vinifiziert. Der Wein wird zehn Monate in Stahltanks gelagert und dann in die Flasche gefüllt, wo er fünf Jahre auf der Hefe reift. Aus dem Glas steigen Noten von Rosenblättern, Biskuit, Rhabarber und Karottensaft. Am Gaumen ist der Crémant saftig und frisch. Ein langer Nachhall nach roten Früchten ist deutlich erkennbar.</detail-info>
+    </wein>
+    
 </data>
