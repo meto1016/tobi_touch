@@ -7810,3 +7810,43 @@ body.x-desktop {
     background-color: white;
     opacity:0.9;
 }
+.button{
+    color: white;
+    background-color:#AF1E2D;
+    border-color:white;
+    border-radius: 5px;
+    margin-bottom: 27px;
+    heigth:10px;
+    width:70px;
+}
+.rating2 {
+    unicode-bidi: bidi-override;
+    /*direction: rtl;*/
+    color: #AF1E2D;
+}
+.rating2 span {
+    display: inline-block;
+    position: relative;
+    width:0.7em;
+    font-size:1.8em;
+    cursor:pointer;
+}
+.rating2 span:hover:before,
+.rating2 span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+    color:#ffff00;
+    text-shadow:0 0 1px #666;
+}
+.rating2 span:before{
+    content: "\2605";
+    position: absolute;
+    color:#AF1E2D0;
+    text-shadow:0 0 1px #666;
+}
+.rating2 .filled:before {
+    content: "\2605";
+    position: absolute;
+    color:g#AF1E2Dold;
+    text-shadow:0 0 1px #666;
+}

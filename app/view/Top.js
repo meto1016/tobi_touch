@@ -24,7 +24,8 @@ Ext.define('app.view.Top',{
 								record: 'wein'
 						}
 						}
-					}           
+					}
+                    
 					   
 			}
 } 
